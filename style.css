@@ -1,0 +1,120 @@
+body {
+    background-color: #f09acc;
+}
+
+
+.logo-1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navUl {
+    background-color: rgb(255, 2, 158);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(14, 13, 13);
+}
+
+.navUl:hover {
+    background-color: rgb(168, 4, 105);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.navlist .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+}
+
+.navlist {
+    align-items: center;
+}
+
+.navlist .btn {
+    white-space: nowrap;
+}
+
+
+.btn {
+    background-color: #570133;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 254, 254);
+    /* box-shadow: 1px 1px 25px rgb(0, 0, 0); */
+
+}
+
+.btn:hover {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: #f887c9;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+
+}
+
+
+.makeup-img {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(131, 1, 1);
+
+}
+
+.makeup-img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
+}
+
+
+
+
+.footer {
+    background-color: rgb(255, 0, 157);
+
+    height: 180px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.footer-para {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer-para:hover {
+    color: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.e-para {
+    color: #fdfafa;
+    text-align: center;
+}
+
+.tag {
+    color: #fcfafa;
+    text-decoration: none;
+}
