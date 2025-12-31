@@ -168,6 +168,28 @@ body {
     border: 3px solid rgb(0, 4, 255);
     border-radius: 10px;
 }
+.middle-row {
+    background-color: #afb4fc;
+    border: 3px solid rgb(0, 4, 255);
+    border-radius: 10px;
+}
+.section-services {
+    background-color: #afb4fc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(3, 1, 131);
+    padding: 30px;
+
+}
+
+.section-services:hover {
+    background-color: #7d85fc;
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+    cursor: pointer;
+    animation-name: zoom-In;
+    animation-duration: 2s;
+}
+
 
 .paras {
     font-size: 25px;
@@ -179,7 +201,26 @@ body {
     border: 3px solid rgb(0, 4, 255);
 
 }
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(21, 1, 110);
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
+}
+.img3 {
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 4, 255);
 
+}
+.img3:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(21, 1, 110);
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
+}
 .footer {
     background-color: rgb(255, 0, 157);
 
@@ -221,10 +262,36 @@ body {
     text-decoration: none;
 }
 
+
+
 @media only screen and (max-width: 515px) {
     .year-img{
         width: 250px;
         height: 250px;
         border-radius: 150px;
+    }
+}
+
+@media only screen and (max-width : 317px){
+    .img3 {
+    width: 200px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 4, 255);
+
+}
+}@media only screen and (max-width : 298px){
+    .img {
+    width: 200px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 4, 255);
+
+}
+}
+
+@media only screen and (max-width: 272px) {
+    .year-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
     }
 }
